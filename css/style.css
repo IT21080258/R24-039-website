@@ -1677,7 +1677,11 @@ h2.title1{
     height: auto; /* Maintain aspect ratio */
 }
 
-
+.tab-img img {
+    height: 250px;
+    object-fit: cover;
+    width: auto; /* ensures the aspect ratio is preserved */
+}
 
 
 /*Basic-Stylesheets-End-Here*/
