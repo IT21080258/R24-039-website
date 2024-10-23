@@ -479,29 +479,27 @@
                 src="images/methodology/Group 7105.png" alt="" style="width: 470px;"></div>
           </div>
           <div class="col-md-6">
-            <p><span><strong>T</strong></span>he proposed traffic control system incorporates a comprehensive approach
-              integrating four key components to efficiently manage traffic and enhance road safety. First, it employs
-              CCTV
-              camera video footage to analyze vehicle density at intersections, utilizing YOLOv5 object detection to
-              capture
-              details such as vehicle count, density, traffic length, and speed. This information is then processed on a
-              server,
-              enabling real-time assessment of traffic conditions. Concurrently, the system integrates with Google Maps
-              API Services
-              to intelligently analyze traffic density, collecting data on traffic duration, ratios, speeds, and vehicle
-              counts.
-              Machine learning algorithms are applied to develop a traffic count prediction model, enhancing the
-              accuracy of
-              real-time traffic data. Additionally, the system features a real-time emergency vehicle detection module,
-              utilizing YOLOv5 object detection to identify emergency vehicles and dynamically adjust traffic signals.
-              The integration of IoT components and sensors optimizes signal timings, creating a smooth "green wave"
-              for vehicles and reducing congestion. Lastly, the system focuses on pedestrian safety by employing
-              high-resolution cameras and state-of-the-art image recognition algorithms to detect visually impaired
-              pedestrians. The Smart Crosswalk System, integrated with the Adaptive Traffic Light Management System,
-              ensures extended crossing times or temporary halts in vehicular traffic to prioritize the safe passage
-              of differently abled individuals. This comprehensive methodology improves traffic management efficiency,
-              enhances pedestrian safety, and optimizes the handling of emergency vehicles, collectively contributing
-              to a safer and more efficient urban traffic environment.
+            <p><span><strong>T</strong></span>he methodology for developing the "MushroomMatrix" web application is divided 
+              into numerous core phases, each aimed at achieving certain goals to improve the mushroom cultivating process. 
+              Initially, data collection was carried out to acquire vital information on mushroom cultivation practices from 
+              Sri Lankan farms, with an emphasis on environmental conditions, production quantities, and market trends. This 
+              thorough information was compiled through cooperation with local farmers and consumer surveys to determine demand. 
+              This data was cleaned and preprocessed to remove inconsistencies and turn it into a format appropriate for model 
+              training. This stage was critical in ensuring the accuracy and dependability of the future machine learning models 
+              produced for yield and demand forecasting. 
+            </p>
+            <p><span><strong>T</strong></span>he next step was creating machine learning models in Python. The yield prediction 
+              model used advanced techniques such as random forests, which were chosen for their robustness and capacity to manage 
+              big datasets efficiently. These models were trained with processed data to assess the impact of various environmental 
+              conditions on mushroom production. Concurrently, demand prediction models used algorithms such as feedforward neural 
+              networks to read market data and accurately forecast customer demand.
+            </p>
+            <p><span><strong>I</strong></span>mage processing was another key component, with a focus on contaminant detection. 
+              The research used a Segment Anything model and a color detection algorithm to accurately identify contamination 
+              indications in picture data obtained from mushroom pots. Blockchain technology was used to maintain data integrity 
+              and transparency throughout the application, with decentralized smart contracts securing data transactions. The web 
+              application's front and backend were built with React and Express, respectively, with machine learning models 
+              incorporated via a Flask server
             </p>
           </div>
 
